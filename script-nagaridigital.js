@@ -77,7 +77,7 @@ $(function(){
 
   $('#table').DataTable({
     ajax: '/api/programs',
-    pageLength: 50,
+    pageLength: 25,
     lengthMenu: [10, 25, 50, 100],
     language: {
       search: "Cari:",
@@ -182,4 +182,5 @@ $(function(){
     }
     
   });
+
 });
